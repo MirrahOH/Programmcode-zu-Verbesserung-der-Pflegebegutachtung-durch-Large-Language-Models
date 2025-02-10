@@ -40,11 +40,11 @@ def write_scenarios_to_txt(input_file, output_file):
 
     with open(output_file, 'w', encoding='utf-8') as f:
         for obj in data:
-            scenario_header = f"##Scenario_{obj['ID']}_{obj['Model']}_{obj['Prompt']}\n\n"
+            scenario_header = f"## Scenario_{obj['ID']}_{obj['Model']}_{obj['Prompt']}\n\n"
             scenario_log = f"{obj['Log']}\n\n"
             f.write(scenario_header + scenario_log)
 
 
 # # # # # # # # # # # # # # #
-combine_json_files("Data/Results", "Data/Results/AllResults.json")
-#write_scenarios_to_txt("Data/Results/AllResults.json", "scenarios_output.txt")
+#combine_json_files("Data/Results", "Data/Results/AllResults.json")
+write_scenarios_to_txt("Data/Results/AllResults.json", "scenarios_output.md")
