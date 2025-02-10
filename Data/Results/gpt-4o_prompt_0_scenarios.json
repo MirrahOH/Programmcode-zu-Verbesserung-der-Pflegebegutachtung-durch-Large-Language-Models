@@ -1,0 +1,74 @@
+[
+    {
+        "Content": "Die Stufen vor meiner Haustür komme ich noch hoch. Auch wenn ich mich am Geländer festhalten muss.",
+        "ID": "1",
+        "Pkt": "2",
+        "VergPkt": "1",
+        "Log": "System: Sie sind ein erfahrener Pflegegutachter, spezialisiert auf die Anwendung der deutschen Pflegegrad-Begutachtungsrichtlinien (PG-Richtlinien). Ihre Aufgabe ist es, die Mobilität eines Patienten gemäß Modul 1 der PG-Richtlinien zu bewerten. Bitte analysieren Sie die folgende Aussage des Patienten zur Fähigkeit, Treppen zu steigen, und stufen Sie diese auf einer Skala von 0 bis 3 ein, wobei:\n0 = selbstständig\n1 = überwiegend selbstständig\n2 = überwiegend unselbstständig\n3 = unselbstständig\nFalls die Informationen in der Patientenaussage nicht ausreichend oder unklar sind, stellen Sie gezielte Rückfragen, um die Fähigkeit des Patienten genauer zu bewerten. Konzentrieren Sie sich dabei ausschließlich auf Fragen, die direkt mit der Fähigkeit, Treppen zu steigen, zusammenhängen.\n\nFrage:\n„Beschreiben Sie Ihre Fähigkeit, Treppen zu steigen.“\n\n\n\nUser: Die Stufen vor meiner Haustür komme ich noch hoch. Auch wenn ich mich am Geländer festhalten muss.\n\nAssistant: Um die Fähigkeit des Patienten, Treppen zu steigen, genauer einzustufen, benötige ich noch einige zusätzliche Informationen:\n\n1. Benötigen Sie beim Treppensteigen eine Pause oder sind Sie in der Lage, die Treppe in einem durch normalen Tempo zu bewältigen?\n2. Haben Sie Schmerzen oder Beschwerden beim Treppensteigen?\n3. Können Sie die Treppe sowohl hoch- als auch herunterlaufen?\n4. Benötigen Sie Hilfe von einer anderen Person, um die Treppe sicher zu nutzen?\n5. Wie oft nutzen Sie die Treppe und empfinden Sie hierbei jede Nutzung als ähnlich einfach oder gibt es Schwankungen?\n\nBitte helfen Sie mir mit diesen Informationen, um Ihre Mobilitätsfähigkeit beim Treppensteigen genauer einschätzen zu können.\n\nUser: Ich brauche etwas Pause beim steigen der Treppen vor meiner Haustür. Ich komme hoch und runter.Für die Treppen vor meiner Haustür brauche ich keine Hilfe. Ich nutze sie töglich.\n\nAssistant: Basierend auf den bereitgestellten Informationen würde ich die Fähigkeit des Patienten, Treppen zu steigen, als \"überwiegend selbstständig\" (Stufe 1) einstufen. Der Patient benötigt zwar Pausen beim Treppensteigen und greift auf das Geländer zur Unterstützung zurück, kann jedoch ohne Hilfe einer anderen Person die Treppen hoch- und hinuntersteigen und tut dies täglich.",
+        "ArgumentationErreicht": "0",
+        "Anmerkung": "Komplett falsch",
+        "ArgumentationTotal": "2",
+        "Model": "GPT-4o",
+        "Prompt": "SystemPrompt"
+    },
+    {
+        "Content": "Ich kann die Etage meiner Wohnung steigen; jedoch habe ich jedes Mal starke Hüftschmerzen",
+        "ID": "2",
+        "Pkt": "0",
+        "VergPkt": "1",
+        "Log": "System: Sie sind ein erfahrener Pflegegutachter, spezialisiert auf die Anwendung der deutschen Pflegegrad-Begutachtungsrichtlinien (PG-Richtlinien). Ihre Aufgabe ist es, die Mobilität eines Patienten gemäß Modul 1 der PG-Richtlinien zu bewerten. Bitte analysieren Sie die folgende Aussage des Patienten zur Fähigkeit, Treppen zu steigen, und stufen Sie diese auf einer Skala von 0 bis 3 ein, wobei:\n0 = selbstständig\n1 = überwiegend selbstständig\n2 = überwiegend unselbstständig\n3 = unselbstständig\nFalls die Informationen in der Patientenaussage nicht ausreichend oder unklar sind, stellen Sie gezielte Rückfragen, um die Fähigkeit des Patienten genauer zu bewerten. Konzentrieren Sie sich dabei ausschließlich auf Fragen, die direkt mit der Fähigkeit, Treppen zu steigen, zusammenhängen.\n\nFrage:\n„Beschreiben Sie Ihre Fähigkeit, Treppen zu steigen.“\n\n\n\nUser: Ich kann die Etage meiner Wohnung steigen; jedoch habe ich jedes Mal starke Hüftschmerzen\n\nAssistant: Basierend auf der Aussage des Patienten kann er die Treppen steigen, jedoch unter starken Hüftschmerzen. Um die Fähigkeit genauer einzuschätzen, benötigen wir weitere Informationen über die Unterstützung, die der Patient möglicherweise benötigt. Hier sind einige Rückfragen:\n\n1. Benötigen Sie eine Pause, um die Treppe hinaufzusteigen?\n2. Nutzen Sie Hilfsmittel wie ein Geländer, einen Gehstock oder ähnliches beim Treppensteigen?\n3. Müssen Sie sich während des Treppensteigens auf jemand anderen stützen?\n4. Wie lange dauert es ungefähr, um die Treppe zu steigen, verglichen mit Ihrem Zustand, als Ihre Hüftschmerzen noch nicht vorhanden waren?\n5. Wie oft am Tag steigen Sie die Treppen?\n\nDiese Informationen helfen dabei, die Selbstständigkeit genauer zu beurteilen.\n\nUser: Ich mache keine Pausen und halte mich am Geländer fest. Ich benötige keine personelle Unterstützung. Seit den Schmerzen in der Hüfte dauert es länger. Ich benutzt die Treppe mindestens einmal am Tag.\n\nAssistant: Auf der Grundlage dieser weiteren Informationen könnte die Fähigkeit des Patienten, Treppen zu steigen, als „überwiegend selbstständig“ (Stufe 1) eingestuft werden. Der Patient ist in der Lage, die Treppe ohne personelle Unterstützung zu steigen, benötigt jedoch das Geländer als Hilfsmittel und es dauert aufgrund der Schmerzen länger. Diese Punkte deuten auf eine überwiegend selbstständige Bewältigung der Tätigkeit hin.",
+        "ArgumentationErreicht": "1",
+        "Anmerkung": "Details gewertet (Geländer Schmerzen), Personelle Hilfe erfragt",
+        "ArgumentationTotal": "2",
+        "Model": "GPT-4o",
+        "Prompt": "SystemPrompt"
+    },
+    {
+        "Content": "Ich bewältige meine Etage mit dem Treppenlift; der sich in meinem Haus befindet",
+        "ID": "3",
+        "Pkt": "3",
+        "VergPkt": "3",
+        "Log": "System: Sie sind ein erfahrener Pflegegutachter, spezialisiert auf die Anwendung der deutschen Pflegegrad-Begutachtungsrichtlinien (PG-Richtlinien). Ihre Aufgabe ist es, die Mobilität eines Patienten gemäß Modul 1 der PG-Richtlinien zu bewerten. Bitte analysieren Sie die folgende Aussage des Patienten zur Fähigkeit, Treppen zu steigen, und stufen Sie diese auf einer Skala von 0 bis 3 ein, wobei:\n0 = selbstständig\n1 = überwiegend selbstständig\n2 = überwiegend unselbstständig\n3 = unselbstständig\nFalls die Informationen in der Patientenaussage nicht ausreichend oder unklar sind, stellen Sie gezielte Rückfragen, um die Fähigkeit des Patienten genauer zu bewerten. Konzentrieren Sie sich dabei ausschließlich auf Fragen, die direkt mit der Fähigkeit, Treppen zu steigen, zusammenhängen.\n\nFrage:\n„Beschreiben Sie Ihre Fähigkeit, Treppen zu steigen.“\n\n\n\nUser: Ich bewältige meine Etage mit dem Treppenlift; der sich in meinem Haus befindet\n\nAssistant: Basierend auf der Aussage des Patienten, dass er einen Treppenlift benötigt, um die Treppe zu bewältigen, ist darauf zu schließen, dass er nicht in der Lage ist, die Treppe selbstständig zu benutzen. Daher würde ich diese Fähigkeit als \"3 = unselbstständig\" einstufen, da der Einsatz eines Treppenlifts auf eine vollständige Abhängigkeit von einem Hilfsmittel hinweist. Falls weitere Details erforderlich sind, könnte man den Patienten fragen, ob er in der Lage wäre, die Treppe ohne den Lift zumindest teilweise zu bewältigen oder ob irgendwelche unterstützenden Maßnahmen erforderlich sind.",
+        "ArgumentationErreicht": "2",
+        "Anmerkung": "Präzise geantwortet..",
+        "ArgumentationTotal": "2",
+        "Model": "GPT-4o",
+        "Prompt": "SystemPrompt"
+    },
+    {
+        "Content": "Ich sitze im Rollstuhl; das Umsetzen ist schwierig für mich und ich benötige dafür eine Greifstange.",
+        "ID": "4",
+        "Pkt": "0",
+        "VergPkt": "1",
+        "Log": "System: Sie sind ein erfahrener Pflegegutachter, spezialisiert auf die Anwendung der deutschen Pflegegrad-Begutachtungsrichtlinien (PG-Richtlinien). Ihre Aufgabe ist es, die Mobilität eines Patienten gemäß Modul 1 der PG-Richtlinien zu bewerten. Bitte analysieren Sie die folgende Aussage des Patienten zur Fähigkeit, sich umzusetzen, und stufen Sie diese auf einer Skala von 0 bis 3 ein, wobei:\n0 = selbstständig\n1 = überwiegend selbstständig\n2 = überwiegend unselbstständig\n3 = unselbstständig\n\nFalls die Informationen in der Patientenaussage nicht ausreichend oder unklar sind, stellen Sie gezielte Rückfragen, um die Fähigkeit des Patienten genauer zu bewerten. Konzentrieren Sie sich dabei ausschließlich auf Fragen, die direkt mit der Fähigkeit, Umsetzen zusammenhängen.\n\n\nGeben Sie nun Ihre professionelle Einschlätzung zu folgenden Patienten aus.\nFrage:\n„Beschreiben Sie Ihre Fähigkeit, sich umzusetzen.\n\n\nUser: Ich sitze im Rollstuhl; das Umsetzen ist schwierig für mich und ich benötige dafür eine Greifstange.\n\nAssistant: Um die Fähigkeit des Patienten, sich umzusetzen, genauer zu bewerten, sind noch einige Informationen erforderlich:\n\n1. Benötigen Sie bei der Nutzung der Greifstange zusätzliche Unterstützung durch eine andere Person?\n2. Wie oft benötigen Sie Hilfe beim Umsetzen innerhalb eines Tages?\n3. Sind Sie in der Lage, die Greifstange selbstständig zu erreichen und zu nutzen?\n\nDiese Informationen helfen, die Einstufung genauer vorzunehmen.\n\nUser: Ich kann die Greifstange alleine nutzen, aber ich benötige sie jedesmal.\n\nAssistant: Basierend auf der Aussage des Patienten, dass er die Greifstange eigenständig nutzen kann, jedoch auf sie angewiesen ist, um sich umzusetzen, würde ich die Fähigkeit wie folgt einstufen:\n\n1 = überwiegend selbstständig\n\nDie Nutzung der Greifstange selbstständig zeigt an, dass der Patient in der Lage ist, sich mit Hilfsmitteln überwiegend selbstständig umzusetzen, benötigt jedoch ein Hilfsmittel für die Durchführung.",
+        "ArgumentationErreicht": "1",
+        "Anmerkung": "Rollstuhl nicht bewertet. Greifstange als Hilfsmittel mit bewertet",
+        "ArgumentationTotal": "2",
+        "Model": "GPT-4o",
+        "Prompt": "SystemPrompt"
+    },
+    {
+        "Content": "Ich benötige Hilfe von meinem Sohn; um mich aus meiner Matratze aufzusetzen. Ansonsten benötige ich keine Hilfe beim Umsetzen",
+        "ID": "5",
+        "Pkt": "0",
+        "VergPkt": "1",
+        "Log": "System: Sie sind ein erfahrener Pflegegutachter, spezialisiert auf die Anwendung der deutschen Pflegegrad-Begutachtungsrichtlinien (PG-Richtlinien). Ihre Aufgabe ist es, die Mobilität eines Patienten gemäß Modul 1 der PG-Richtlinien zu bewerten. Bitte analysieren Sie die folgende Aussage des Patienten zur Fähigkeit, sich umzusetzen, und stufen Sie diese auf einer Skala von 0 bis 3 ein, wobei:\n0 = selbstständig\n1 = überwiegend selbstständig\n2 = überwiegend unselbstständig\n3 = unselbstständig\n\nFalls die Informationen in der Patientenaussage nicht ausreichend oder unklar sind, stellen Sie gezielte Rückfragen, um die Fähigkeit des Patienten genauer zu bewerten. Konzentrieren Sie sich dabei ausschließlich auf Fragen, die direkt mit der Fähigkeit, Umsetzen zusammenhängen.\n\n\nGeben Sie nun Ihre professionelle Einschlätzung zu folgenden Patienten aus.\nFrage:\n„Beschreiben Sie Ihre Fähigkeit, sich umzusetzen.\n\n\nUser: Ich benötige Hilfe von meinem Sohn; um mich aus meiner Matratze aufzusetzen. Ansonsten benötige ich keine Hilfe beim Umsetzen\n\nAssistant: Basierend auf der Aussage des Patienten, dass er Hilfe vom Sohn benötigt, um sich aus der Matratze aufzusetzen, aber ansonsten keine Hilfe beim Umsetzen benötigt, deutet dies darauf hin, dass der Patient in der Lage ist, sich in den meisten Situationen weitgehend selbstständig umzusetzen. Die Unterstützung beim Aufsetzen aus der Matratze zeigt jedoch, dass er nicht völlig selbstständig ist.\n\nIhre professionelle Einschätzung: 1 = überwiegend selbstständig",
+        "ArgumentationErreicht": "0",
+        "Anmerkung": "Mindesthöhe nicht erfragt. Standardsituation nicht erfragt, Nicht Nachgefragt..",
+        "ArgumentationTotal": "2",
+        "Model": "GPT-4o",
+        "Prompt": "SystemPrompt"
+    },
+    {
+        "Content": "Mein Pfleger reicht mir manchmal die Hand; beim Umsetzen; da mir meine Beinprothese zu schaffen macht.",
+        "ID": "6",
+        "Pkt": "1",
+        "VergPkt": "2",
+        "Log": "System: Sie sind ein erfahrener Pflegegutachter, spezialisiert auf die Anwendung der deutschen Pflegegrad-Begutachtungsrichtlinien (PG-Richtlinien). Ihre Aufgabe ist es, die Mobilität eines Patienten gemäß Modul 1 der PG-Richtlinien zu bewerten. Bitte analysieren Sie die folgende Aussage des Patienten zur Fähigkeit, sich umzusetzen, und stufen Sie diese auf einer Skala von 0 bis 3 ein, wobei:\n0 = selbstständig\n1 = überwiegend selbstständig\n2 = überwiegend unselbstständig\n3 = unselbstständig\n\nFalls die Informationen in der Patientenaussage nicht ausreichend oder unklar sind, stellen Sie gezielte Rückfragen, um die Fähigkeit des Patienten genauer zu bewerten. Konzentrieren Sie sich dabei ausschließlich auf Fragen, die direkt mit der Fähigkeit, Umsetzen zusammenhängen.\n\n\nGeben Sie nun Ihre professionelle Einschlätzung zu folgenden Patienten aus.\nFrage:\n„Beschreiben Sie Ihre Fähigkeit, sich umzusetzen.\n\n\nUser: Mein Pfleger reicht mir manchmal die Hand; beim Umsetzen; da mir meine Beinprothese zu schaffen macht.\n\nAssistant: Vielen Dank für Ihre Antwort. Um Ihre Fähigkeit, sich umzusetzen, genauer einschätzen zu können, habe ich einige weitere Fragen:\n\n1. Wie oft benötigen Sie die Unterstützung Ihres Pflegers beim Umsetzen? Ist dies bei jedem Umsetzen notwendig oder nur gelegentlich?\n2. Wenn Sie die Hand Ihres Pflegers nutzen, übernehmen Sie einen Großteil der Bewegung selbst oder benötigen Sie seine aktive Unterstützung, um die Bewegung durchzuführen?\n3. Gibt es Situationen, in denen Sie sich ohne jegliche Unterstützung umsetzen können?\n\nDiese Informationen helfen mir, Ihre Fähigkeit, sich umzusetzen, besser einzuschätzen.\n\nUser: Ich benötige die Hilfe mehrmals täglich. Das Handreichen sabilisiert mich etwas. Manchmal schaffe ich es auch alleine.\n\nAssistant: Vielen Dank für die zusätzlichen Informationen. Aufgrund Ihrer Angaben, dass Sie mehrmals täglich Unterstützung benötigen, jedoch in manchen Fällen auch alleine umsetzen können, würde ich Ihre Fähigkeit, sich umzusetzen, als \"überwiegend unselbstständig\" (2) einstufen. Sie benötigen regelmäßig die stabilisierende Hand Ihres Pflegers, was auf eine Einschränkung hindeutet, selbst wenn Sie gelegentlich alleine zurechtkommen.",
+        "ArgumentationErreicht": "2",
+        "Anmerkung": "Präzise Nachgefragt nur Bewertung ist falsch",
+        "ArgumentationTotal": "2",
+        "Model": "GPT-4o",
+        "Prompt": "SystemPrompt"
+    }
+]

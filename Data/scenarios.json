@@ -1,0 +1,38 @@
+[{
+  "Content": "Die Stufen vor meiner Haustür komme ich noch hoch. Auch wenn ich mich am Geländer festhalten muss.",
+  "ID": "1",
+  "Pkt": "2",
+  "VergPkt": "",
+  "Log": ""
+},{
+  "Content": "Ich kann die Etage meiner Wohnung steigen; jedoch habe ich jedes Mal starke Hüftschmerzen",
+  "ID": "2",
+  "Pkt": "0",
+  "VergPkt": "",
+  "Log": ""
+},{
+  "Content": "Ich bewältige meine Etage mit dem Treppenlift; der sich in meinem Haus befindet",
+  "ID": "3",
+  "Pkt": "3",
+  "VergPkt": "",
+  "Log": ""
+},{
+  "Content": "Ich sitze im Rollstuhl; das Umsetzen ist schwierig für mich und ich benötige dafür eine Greifstange.",
+  "ID": "4",
+  "Pkt": "0",
+  "VergPkt": "",
+  "Log": ""
+},{
+  "Content": "Ich benötige Hilfe von meinem Sohn; um mich aus meiner Matratze aufzusetzen. Ansonsten benötige ich keine Hilfe beim Umsetzen",
+  "ID": "5",
+  "Pkt": "0",
+  "VergPkt": "",
+  "Log": ""
+},{
+  "Content": "Mein Pfleger reicht mir manchmal die Hand; beim Umsetzen; da mir meine Beinprothese zu schaffen macht.",
+  "ID": "6",
+  "Pkt": "1",
+  "VergPkt": "",
+  "Log": ""
+}
+]
